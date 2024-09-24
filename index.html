@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Kaviya K - Professional Resume showcasing Salesforce CRM and testing expertise.">
+    <meta name="keywords" content="Salesforce, Testing, CRM, Resume, Kaviya">
+    <meta name="author" content="Kaviya K">
     <title>Kaviya K | Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container">
+            <img src="profile.jpg" alt="Kaviya K" class="profile-pic">
             <h1>Kaviya K</h1>
             <p>Email: <a href="mailto:kaviyakalisamy@gmail.com">kaviyakalisamy@gmail.com</a></p>
             <p>Phone: +91-8778315742</p>
@@ -19,7 +23,7 @@
     <section id="summary">
         <div class="container">
             <h2>Professional Summary</h2>
-            <p>A competent professional with around 5 years of experience in Salesforce (CRM), requirement analysis, compliance/GxP validation, test management, functional/system testing, UAT support, and device testing. Experienced in Agile projects, mentoring new team members, conducting meetings, and collaborating with global teams. Received multiple awards, including Star Performer, Super Sheros, and Xtra Mile Award in Capgemini.</p>
+            <p>A competent professional with around 5 years of experience in Salesforce (CRM), requirement analysis, compliance/GxP validation, test management, and more. Experienced in Agile projects, mentoring, and team coordination. Multiple award winner for performance excellence.</p>
         </div>
     </section>
 
@@ -31,9 +35,9 @@
                 <h3>Salesforce Tester</h3>
                 <p>Capgemini India Pvt Ltd, Bangalore | April 2018 - Present</p>
                 <ul>
-                    <li>Worked on Salesforce CRM, handling functional, regression, integration testing, and UAT support.</li>
-                    <li>Experienced in API testing using tools like Postman and dBeaver.</li>
-                    <li>Coordinated with teams in multiple locations and mentored new team members.</li>
+                    <li>Handled Salesforce CRM, functional, regression, integration testing, and UAT support.</li>
+                    <li>Managed API testing using tools like Postman and dBeaver.</li>
+                    <li>Worked with teams across global locations.</li>
                 </ul>
             </div>
         </div>
@@ -42,7 +46,7 @@
     <section id="skills">
         <div class="container">
             <h2>Skills</h2>
-            <ul>
+            <ul class="skills-list">
                 <li>Salesforce.com</li>
                 <li>JIRA, Postman, HP ALM</li>
                 <li>API Testing (Postman, Mulesoft, Swagger)</li>
@@ -67,8 +71,13 @@
                 <p>September 2022 – May 2023 | Capgemini India Pvt Ltd, Bangalore</p>
                 <p>Migrated the database from EDG to CDL. Responsibilities included requirement analysis, regression testing, and UAT support.</p>
             </div>
-            
-            <!-- Repeat for more projects -->
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p>View my projects on <a href="https://github.com/yourusername" target="_blank">GitHub</a> and <a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn</a>.</p>
         </div>
     </section>
 
@@ -79,11 +88,33 @@
         </div>
     </section>
 
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
-            <p>Connect with me: <a href="mailto:kaviyakalisamy@gmail.com">kaviyakalisamy@gmail.com</a> | +91-8778315742</p>
+            <a href="resume.pdf" download="Kaviya_K_Resume.pdf" class="download-btn">Download Resume (PDF)</a>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/kaviya" target="_blank">LinkedIn</a>
+                <a href="https://github.com/kaviya" target="_blank">GitHub</a>
+            </div>
+            <button class="dark-mode-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
             <p>© 2024 Kaviya K</p>
         </div>
     </footer>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
 </body>
 </html>
