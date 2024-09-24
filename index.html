@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Professional resume of Your Name, showcasing experience, education, and skills.">
+    <meta name="keywords" content="Resume, CV, Your Name, Web Developer, Software Engineer">
+    <meta name="author" content="Your Name">
+    <title>Your Name | Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_ANALYTICS_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'YOUR_ANALYTICS_ID');
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="profile.jpg" alt="Your Name" class="profile-pic">
+            <h1>Your Name</h1>
+            <p>Job Title | City, Country</p>
+            <a href="mailto:youremail@example.com">youremail@example.com</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>A brief introduction about yourself, your professional background, and your career goals.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container experience-container">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Job Title</h3>
+                <p>Company Name | Start Date - End Date</p>
+                <ul>
+                    <li>Key responsibility or achievement #1</li>
+                    <li>Key responsibility or achievement #2</li>
+                    <li>Key responsibility or achievement #3</li>
+                </ul>
+            </div>
+            <!-- Repeat for more job experiences -->
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container experience-container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Degree</h3>
+                <p>Institution Name | Year of Graduation</p>
+            </div>
+            <!-- Repeat for more education history -->
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Skill #1</li>
+                <li>Skill #2</li>
+                <li>Skill #3</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project Title</h3>
+                <p>Brief description of the project.</p>
+                <a href="https://link-to-project.com" target="_blank">View Project</a>
+            </div>
+            <!-- Repeat for more projects -->
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <blockquote>
+                "Your Name was an outstanding developer at Company XYZ. Their skills and attention to detail were unmatched."
+                <footer>- John Doe, Manager at XYZ</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <a href="resume.pdf" download="Your_Name_Resume.pdf" class="download-btn">Download Resume (PDF)</a>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+            </div>
+            <button class="dark-mode-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+            <p>© 2024 Your Name | Connect with me on <a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>
